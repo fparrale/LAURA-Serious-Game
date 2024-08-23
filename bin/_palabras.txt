@@ -1,0 +1,20 @@
+editar;1;true
+clientes;2;true
+desde un/una;3;true
+formulario;4;true
+datos;5;false
+consultar;1;true
+clientes;2;true
+desde un;3;true
+listado;4;true
+datos;5;false
+eliminar;1;true
+clientes;2;true
+desde un;3;true
+listado;4;true
+datos;5;false
+eliminar;1;true
+clientes;2;true
+desde un;3;true
+listado;4;true
+datos;5;false

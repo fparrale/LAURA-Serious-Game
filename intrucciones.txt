@@ -1,0 +1,19 @@
+Dentro de la carpeta Bin se encuentra un archivo .txt llamado "palabras.txt", desde allí se pueden configurar los requeirmientos del juego.
+
+El archivo tiene los datosa correspondintes a un bloque por cada fila. 
+Cada bloque tiene un orden específico y cada requerimeeitnos a armar tiene 5 bloques, de los cuales algunos pueden ser inavlidos, es decir no formna parte del requerimeinto y están ahí para confundir al jugador.
+Los bloques deben considerarse de 5 en 5 y en orden, el orden es un entero de 1 a 5, en el caso de ser un bloque inválido se ignora el orden de este. 
+
+Estructura del archivo:
+
+palabra;orden(1,2,3,4,5);valido o no (true o false)
+
+Por ejemplo:
+
+crear;1;true
+clientes;2;true
+desde un/una;3;true
+formulario;4;true
+datos;5;false
+
+En este caso el requeriminto a formar es "Crear clientes desde un/una formulario." y la palabra "datos" sobra y está para despistar, eso se indica al colocar "false" en la tercera columna como podemos observar en la etructura.
